@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+    <link
+            href="https://unpkg.com/@phosphor-icons/web@2.0.3/src/bold/style.css"
+            rel="stylesheet"
+            type="text/css"
+    />
+    <link href="style.css" rel="stylesheet">
+    <script defer src="main.js"></script>
+    <title>Responsive Navbar</title>
+</head>
+<body>
+<nav aria-label="main navigation" class="navbar" role="navigation">
+    <div class="container navbar-container">
+        <div class="navbar-logo">
+            <a href="#home"><img alt="NOVI Hogeschool logo" src="assets/NOVI-logo.svg"></a>
+        </div>
+        <button aria-expanded="false" aria-label="toggle mobile navigation" class="navbar-menu-btn">
+            <i class="ph-bold ph-list"></i>
+        </button>
+        <ul class="navbar-menu">
+            <li class="navbar-link"><a href="#home">home</a></li>
+            <li class="navbar-link"><a href="#about">about</a></li>
+            <li class="navbar-link"><a href="#contact">contact</a></li>
+            <li class="navbar-link navbar-link-btn"><a href="#register">register</a></li>
+            <li class="navbar-link navbar-link-btn"><a href="#login">login</a></li>
+        </ul>
+    </div>
+    <div class="background"></div>
+</nav>
+</body>
+</html>
